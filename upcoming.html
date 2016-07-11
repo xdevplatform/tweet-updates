@@ -1,0 +1,274 @@
+<h2>Introduction</h2>
+
+<p>This document outlines the set of changes to Tweets so that people can express even more in 140 characters: 1) to allow for richer public conversations that are easier to follow on Twitter and 2) to ensure people can attach media to Tweets without sacrificing the characters they have to express themselves.</p>
+
+<p>These changes touch many aspects of the Twitter platform. To that end, we have prepared these technical materials to help you transition your products and applications to the new Tweet format. The following sections will step through the planned technical changes.</p>
+
+<h2>Overview</h2>
+<p>The following chart and sample JSON demonstrate the differences between Tweet JSON objects in the various API endpoints (REST, streaming and Gnip), once the API changes described above are active.</p>
+
+<table border="1">
+<tbody>
+<tr>
+<td width="10%">
+<b>Mode</b>
+</td>
+<td width="30%">
+<b>Objective</b>
+</td>
+<td width="10%">
+<b>Availability</b>
+</td>
+<td width="30%">
+<b>Details</b>
+</td>
+<td width="20%">
+<b>Example Tweets (JSON)</b>
+</td>
+</tr>
+<tr>
+<td>
+<p>Compatibility</p>
+</td>
+<td>
+<p>Tweet payload will work with all existing integrations, regardless of content of tweet.</p>
+</td>
+<td>
+<p>Default for all REST APIs</p>
+</td>
+<td>
+<ul>
+<li><code>text</code> field is truncated to 140, as needed</li>
+<li><code>truncated</code> field is true</li>
+<li>Any <code>entities</code> parameters only include those in the available 140 text range</li>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibility_classic_13995.json">Classic tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibility_classic_hidden_13797.json">Classic tweet w/ hidden text</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibility_extended_13996.json">Extended tweet</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p>Compatibility with additional <code>extended_tweet</code> in payload</p>
+</td>
+<td>
+<p>Maintain backwards compatibility with a non-breaking, payload addition</p>
+</td>
+<td>
+<p>Default for all Streaming and Gnip APIs</p>
+</td>
+<td>
+<ul>
+<li>Includes new <code>extended_tweet<code> parameter in payload, containing:</li>
+<li>
+<ul>
+<li><code>full_text</code></li>
+<li><code>display_text_range</code></li>
+<li><code>entities</code></li>
+<li><code>extended_entities</code></li>
+</ul>
+</ul>
+</td>
+<td>
+<ul>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibilityplus_classic_13994.json">Classic tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibilityplus_classic_hidden_13797.json">Classic tweet w/ hidden text</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibilityplus_extended_13997.json">Extended tweet</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<p>Extended</p>
+</td>
+<td>
+<p>Tweet payload contains all information to render tweets that are beyond 140</p>
+</td>
+<td>
+<p>REST APIs only: add the below parameters to any endpoint:</p>
+<p><code>tweet_mode=extended</code></p>
+</td>
+<td>
+<ul>
+<li><code>full_text</code> replaces <code>text</code></li>
+<li><code>truncated</code> field is false</li>
+<li><code>display_text_range</code> delineates different sections of body for mentions/tweet/entities</li>
+</ul>
+</td>
+<td>
+<ul>
+<li>C<a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/extended_classic_14002.json">lassic tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/extended_classic_hidden_13761.json">Classic tweet w/ hidden text</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/extended_extended_14001.json">Extended tweet</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+<h2>What is changing?</h2>
+
+<p>We are simplifying the way that replies work on Twitter by moving some of the "scaffolding" of Tweets into display elements so they no longer count towards the character limit within the Tweet.</p>
+
+<ul>
+<li>Replies: @names that auto-populate at the start of a reply Tweet will not count towards the character limit (but new non-reply Tweets starting with a @mention will count, as will @mentions added explicitly by the user in the body of the Tweet). Additionally, new Tweets that begin with a username will no longer have to use the <a href="https://twitter.com/twitter/status/732659321536815104">".@" convention</a> in order to have those Tweets reach all of their followers.</li>
+<li>Media attachments: A URL at the end of Tweets generated from attaching photos, a video, GIF, poll, Quote Tweet, or <a href="https://business.twitter.com/en/help/campaign-editing-and-optimization/public-to-private-conversation.html">DM deep link</a> will also not count towards the character limit (URLs typed or pasted inside the Tweet will be counted towards the character limit as they do today).</li>
+</ul>
+
+<p>This change will introduce new limits around the numbers of specific elements that may be included as part of a Tweet (specifically, mentions).</p>
+
+<p>These changes are shipping in the coming months. Our goal is to give developers and partners this advance notice of changes to the format of Tweets so that they can prepare their products and applications appropriately.</p>
+
+<h2>Compatibility, and what this means for developers</h2>
+
+<p>Backward and forward compatibility for third party clients and other API users are our primary considerations.</p>
+
+<p>There are a number of areas that will be impacted by the change:</p>
+
+<ul>
+<li>the public REST and Streaming APIs</li>
+<li>the Ads API</li>
+<li>the Gnip data products</li>
+<li>display products, such as Fabric's Twitter Kit for embedded Tweets and timelines displayed on iOS, Android, and Web.</li>
+</ul>
+
+<h2>Tweet object changes</h2>
+<p>The following things will change within Tweet payloads:</p>
+
+<ul>
+    <li>The displayed text in a Tweet does not exceed <a href="https://dev.twitter.com/overview/api/counting-characters">140 characters</a>, but - when usernames or attachment URLs are included at the appropriate points in the Tweet - the text content of the overall Tweet JSON object will be able to exceed 140 characters. Developers must avoid hard-coding length assumptions into their applications.</li>
+    <li>The text shall be logically divided into three regions:</li>
+    <ul>
+        <li>A <em>hidden</em> prefix region that may contain one or more space-separated @mentions which shall not be rendered as part of the display text, but must instead be rendered as metadata.</li>
+        <li>A display text region, which remains a maximum of 140 characters in length.</li>
+        <li>A <em>hidden</em> suffix region that may contain one attachment URL which shall not be rendered as part of the display text, but must instead be rendered as metadata. This region is limited to containing a single URL entity that identifies an attachment resource: currently, one to four photos, a GIF, video, poll, Quote Tweet, or DM deep link.</li>
+        <ul><li>Note: URLs for Quote Tweet or DM deep links which are typed or pasted into a Tweet will still count against the character limit. In the near future, we will add an API parameter <code>attachment_url</code> to the <code>POST statuses/update</code> endpoint to attach these URLs to a Tweet. They will not count against the character limit when this method is used.</li></ul></ul>
+        <li>If the text contains a hidden prefix or suffix region, then the Tweet object shall contain values to identify the start and end indices of the region of the text to be displayed as the Tweet text.</li>
+        <li>Example payloads are provided in the appendix.</li>
+    </ul>
+
+<h2>What does this look like?</h2>
+
+<p>This diagram shows the high-level change to Tweets, and the elements that will be hidden in the user interface.</p>
+
+<img src="https://g.twimg.com/dev/documentation/image/image00_0.png" width="1999" height="1276" alt=""  />
+
+<p>When rendered in apps or on the web, the hidden @mentions shall appear outside of the visible Tweet body, in a format similar to below. When a Tweet is in reply to multiple people, the name of the person whom the author is directly replying to should be prioritized.</p>
+
+<img src="https://g.twimg.com/dev/documentation/image/image01_0.png" width="1999" height="987" alt=""  />
+
+<h2>Terminology</h2>
+
+<p><em><strong>Classic Tweet</strong></em> - A Tweet object where the total length of the text content does not exceed 140 characters. It may or may not contain leading and/or trailing text that shall be hidden by newer clients.</p>
+
+<p><em><strong>Extended Tweet</strong></em> - A Tweet object which includes hidden entities (e.g. leading @mentions and trailing attachment) and where the text content exceeds 140 characters in length. The display text region shall not exceed 140 characters.</p>
+
+<h2>Rendering modes</h2>
+
+<p>There will be two <em>modes</em> for rendering Tweet JSON objects to API clients: <strong>compatibility</strong> mode and <strong>extended</strong> mode. Compatibility mode is the default mode for the public REST and Streaming APIs and Gnip products, and is designed to not break existing clients.</p>
+
+<p>REST API clients may opt into the extended mode via a request parameter.</p>
+
+<p>In the future, an additional announcement will be made when the time is right to make a change for the rendering mode to default to extended mode.</p>
+
+<h2>Compatibility Mode JSON Rendering</h2>
+
+<p>In compatibility mode, <strong>Classic Tweets</strong> will be rendered exactly as today.</p>
+
+<p>For <strong>Extended Tweets</strong> in compatibility mode, the following will be true:</p>
+
+<ol>
+<li>The existing <code>text</code> field will contain a truncated version of the Tweet text, followed by an ellipsis character, a space, and a shortened self-permalink URL. The total length of this text value shall not exceed 140 characters.</li>
+<li>The existing <code>truncated</code> field will be set to <code>true</code>.</li>
+<li>The existing entity fields (<code>mentions</code>, <code>urls</code>, <code>media</code>, etc.), will only contain entities that are fully contained within the <code>text</code> value. The <code>from</code> and <code>to</code> indices within each entity must be a valid code point index within the text value. The truncation point will avoid truncating mid-entity. A URL entity for the appended self-permalink will be appended to the list of entities.</li>
+<li>The payload may contain a new dictionary field named extended_tweet (this is specific to the Streaming and Gnip APIs). This will contain the following sub-fields:
+    <ul>
+        <li><code>full_text</code>: contains the full, untruncated Tweet text.</li>
+        <li><code>display_text_range</code>: an array of two unicode code point indices, identifying the inclusive start and exclusive end of the displayable content of the Tweet.</li>
+        <li><code>entities/extended_entities</code>, etc.: The full set of entities.</li>
+    </ul></li>
+<li>If the Tweet contains a Quote Tweet permalink URL, then the resulting embedded Quoted Tweet, if any, will still be included even if the permalink URL is not included in the truncated text.</li>
+<li>If the Tweet contains a URL entity that results in an attached card, then the card will still be included even if the original URL entity is not included in the truncated text.</li>
+<li>Since native media is only represented via entities, those will be missing from the truncated list of entities, but will be in <code>extended_tweet.entities</code>.</li>
+</ol>
+
+<h2>Extended Mode JSON Rendering</h2>
+<p>In extended mode, the following will be true both for <strong>Classic Tweets</strong> and <strong>Extended Tweets</strong>:</p>
+
+<ol>
+    <li>The <code>text</code> field is no longer included; instead, the payload will contain a field named <code>full_text</code>, which contains the entire untruncated Tweet text.</li>
+    <li>The payload shall contain a field named <code>display_text_range</code>, which is an array of two unicode code point indices, identifying the inclusive start and exclusive end of the displayable content of the tweet.</li>
+    <li>The <code>truncated</code> field will be set to <code>false</code>.</li>
+    <li>The entity fields will contain all entities, both hidden and displayable.</li>
+</ol>
+
+<h2>Limits</h2>
+
+<p>There will be restrictions placed on the content of the text. This is to improve the end-user experience, and to encourage high quality content. Tweets will be rejected at creation time if they exceed the new entity limits, via new API error codes. These restrictions will be enforced on all Tweets, regardless of overall character count (this represents a change to the existing methods that support creating new Tweets).</p>
+
+<p>The numbers listed below are intended as initial guidelines.</p>
+
+<ul>
+<li>overall Tweet text: limited to 3,000 Unicode code-points, after applying Unicode Normalization Form C.</li>
+<li>@mentions: a limit of 50 @mentions per Tweet in the hidden region. This is enforced on the server side, so that users cannot exceed this number.</li>
+<li>existing numbers and sizes of media attachments remain unchanged (up to 4 images represented by a single URL, or 1 GIF, or 1 video). Links that are added to the Tweet in order to link to media attached via the Twitter app or website (aka "native media links") do not count, but links typed or pasted into the compose box may do so.</li>
+</ul>
+
+<h2>API changes</h2>
+
+<h3>Public REST API endpoints</h3>
+
+<p>The <a href="https://dev.twitter.com/rest/public">REST API</a> endpoints that <em>create</em> new Tweets (<code>statuses/update</code>) will accept a new boolean parameter when a Tweet is sent as a reply to a conversation: <code>auto_populate_reply_metadata</code> (<code>true</code> to enable, <code>false</code> to disable, <code>false</code> being the default). The existing <code>in_reply_to_status_id</code> must also be set. The leading @mentions will subsequently be looked up from the original status, and added to the new Tweet from there. In cases where the original status has been deleted, the reply will fail. This is a change to existing behaviour.</p>
+
+<p>For older clients that are not updated for the <code>auto_populate_reply_metadata</code> option, mentions will continue to be included in the body of the Tweet and the server will decide on how to render the new Tweet.</p>
+
+<p>Any endpoints that <em>return</em> Tweets will accept a new <code>tweet_mode</code> request parameter.</p>
+
+<p>Valid request values are <code>compat</code> and <code>extended</code>, which give compatibility mode and extended mode, respectively.</p>
+
+<p>The default mode (if no parameter is provided) is compatibility mode, to support older clients and display methods.</p>
+
+<p>Tweets rendered in compatibility mode via the public REST API will <em>not</em> contain the <code>extended_tweet</code> field. REST API clients that wish to get the full text can instead opt into extended mode.</p>
+
+<h4>Error codes</h4>
+
+<p>Due to the limitations listed above, new API response and error codes will be introduced. These reflect the new content requirements listed in the Limits section above.</p>
+<table>
+<tr>
+    <td>386<td>
+        <td>The Tweet exceeds the number of allowed attachment types.</td>
+        <td>Corresponds with HTTP 403. A Tweet is limited to a single attachment resource (media, Quote Tweet, etc.)</td>
+    </tr>
+</table>
+
+<h3>Public Streams</h3>
+<p>The <a href="https://dev.twitter.com/streaming/overview">Streaming API</a> does not provide the same ability to provide query parameters to configure request options. Therefore, the Streaming API will render all Tweets in compatibility mode at this time.</p>
+
+<p>Tweets rendered in compatibility mode for the streaming APIs, unlike for the REST APIs, will include the <code>extended_tweet</code> field for any extended tweet. This is necessary to avoid breaking existing clients by sending text that is longer than they expect in the existing <code>text</code> field, and also to provide the entirety of the data in a single stream. If there is an <code>extended_tweet</code> field, it will also include the ranges described above.</p>
+
+<p>Streaming API consumers should update their code to first check for the presence of the <code>extended_tweet</code> dictionary, and use that in preference to the truncated data as is applicable for their use case. When <code>extended_tweet</code> is not present, they must fall back to using the existing fields.</p>
+
+<p>In the future, a date for a switchover to extended mode will be announced, after which time apps should be able to process the newer Tweet payloads.</p>
+
+<h3>Gnip (REST and Streaming APIs)</h3>
+
+<p>In the case of Data products, both the REST and Streaming endpoints will follow a similar pattern to the public Streaming API, and the current versions of the data products APIs will render Tweets in compatibility mode, with the <code>extended_tweet</code> field.</p>
+
+<p>The impact is intended to be a minimal, additive and opt-in, non-breaking change. Gnip customers will have to make a code change to "opt-in" to utilize the new additive fields when present. They may also want to prepare for the impacts of increased payload sizes, including storage and bandwidth implications.</p>
+
+<p>In addition to payload changes, upon release of new Tweet payloads, Gnip operators and enrichments will begin to analyze the longer text and entities as opposed to the truncated version.</p>
+
+<h3>Tweet display on Web, iOS, Android</h3>
+
+<h4>Web</h4>
+<p>Twitter's web embed products are powered by our <code>widgets.js</code> JavaScript library which will be automatically updated to support new Tweet display formats without additional configuration needed from publishers.</p>
+
+<h4>iOS, Android</h4>
+<p>A future version of the Twitter Kit libraries will support retrieving extended Tweets and displaying the results inside new templates. An application developer will decide to update their version of Twitter Kit after it is available, build the new code with their app, and release the change as part of their regular app update process.</p>
+
+<h4>Tweet Web Intent, Twitter Kit Tweet Composer</h4>
+<p>We currently have no planned changes to the Tweet web intent, or to the Tweet Composer functionality included in Twitter Kit.?</p>
