@@ -1,0 +1,176 @@
+{
+	"contributors": null,
+	"coordinates": null,
+	"created_at": "Fri Jul 29 01:15:06 +0000 2016",
+	"display_text_range": [
+		0,
+		26
+	],
+	"entities": {
+		"hashtags": [
+		],
+		"symbols": [
+		],
+		"urls": [
+			{
+				"display_url": "twitter.com/ygritteygritte…",
+				"expanded_url": "https://twitter.com/ygritteygritte/status/758833133185699840",
+				"indices": [
+					27,
+					50
+				],
+				"url": "https://t.co/Qhq3W7v0BP"
+			}
+		],
+		"user_mentions": [
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"filter_level": "low",
+	"geo": null,
+	"id": 758833194632224768,
+	"id_str": "758833194632224768",
+	"in_reply_to_screen_name": null,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"is_quote_status": true,
+	"lang": "en",
+	"place": null,
+	"possibly_sensitive": false,
+	"quoted_status": {
+		"contributors": null,
+		"coordinates": null,
+		"created_at": "Fri Jul 29 01:14:52 +0000 2016",
+		"display_text_range": [
+			12,
+			51
+		],
+		"entities": {
+			"hashtags": [
+			],
+			"symbols": [
+			],
+			"urls": [
+			],
+			"user_mentions": [
+				{
+					"id": 21015627,
+					"id_str": "21015627",
+					"indices": [
+						0,
+						11
+					],
+					"name": "Alice Yang",
+					"screen_name": "maliceyang"
+				}
+			]
+		},
+		"favorite_count": 0,
+		"favorited": false,
+		"filter_level": "low",
+		"geo": null,
+		"id": 758833133185699840,
+		"id_str": "758833133185699840",
+		"in_reply_to_screen_name": "maliceyang",
+		"in_reply_to_status_id": 756633492579028992,
+		"in_reply_to_status_id_str": "756633492579028992",
+		"in_reply_to_user_id": 21015627,
+		"in_reply_to_user_id_str": "21015627",
+		"is_quote_status": false,
+		"lang": "en",
+		"place": null,
+		"retweet_count": 0,
+		"retweeted": false,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"text": "@maliceyang this cat is the best cat i've ever seen",
+		"truncated": false,
+		"user": {
+			"contributors_enabled": false,
+			"created_at": "Wed May 25 07:19:22 +0000 2016",
+			"default_profile": true,
+			"default_profile_image": false,
+			"description": null,
+			"favourites_count": -1,
+			"follow_request_sent": null,
+			"followers_count": -1,
+			"following": null,
+			"friends_count": -1,
+			"geo_enabled": false,
+			"id": 735369652956766208,
+			"id_str": "735369652956766208",
+			"is_translator": false,
+			"lang": "en",
+			"listed_count": null,
+			"location": null,
+			"name": "Ygritte",
+			"notifications": null,
+			"profile_background_color": "",
+			"profile_background_image_url": null,
+			"profile_background_image_url_https": null,
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_link_color": "",
+			"profile_sidebar_border_color": "",
+			"profile_sidebar_fill_color": "",
+			"profile_text_color": "",
+			"profile_use_background_image": false,
+			"protected": false,
+			"screen_name": "ygritteygritte",
+			"statuses_count": -1,
+			"time_zone": null,
+			"url": null,
+			"utc_offset": null,
+			"verified": false
+		}
+	},
+	"quoted_status_id": 758833133185699840,
+	"quoted_status_id_str": "758833133185699840",
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+	"text": "This is still the best cat https://t.co/Qhq3W7v0BP",
+	"truncated": false,
+	"user": {
+		"contributors_enabled": false,
+		"created_at": "Wed May 25 07:19:22 +0000 2016",
+		"default_profile": true,
+		"default_profile_image": false,
+		"description": null,
+		"favourites_count": -1,
+		"follow_request_sent": null,
+		"followers_count": -1,
+		"following": null,
+		"friends_count": -1,
+		"geo_enabled": false,
+		"id": 735369652956766208,
+		"id_str": "735369652956766208",
+		"is_translator": false,
+		"lang": "en",
+		"listed_count": null,
+		"location": null,
+		"name": "Ygritte",
+		"notifications": null,
+		"profile_background_color": "",
+		"profile_background_image_url": null,
+		"profile_background_image_url_https": null,
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_link_color": "",
+		"profile_sidebar_border_color": "",
+		"profile_sidebar_fill_color": "",
+		"profile_text_color": "",
+		"profile_use_background_image": false,
+		"protected": false,
+		"screen_name": "ygritteygritte",
+		"statuses_count": -1,
+		"time_zone": null,
+		"url": null,
+		"utc_offset": null,
+		"verified": false
+	}
+}

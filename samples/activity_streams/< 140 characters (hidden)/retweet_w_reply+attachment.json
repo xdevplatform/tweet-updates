@@ -1,0 +1,353 @@
+{
+	"actor": {
+		"displayName": "Ygritte",
+		"favoritesCount": -1,
+		"followersCount": -1,
+		"friendsCount": -1,
+		"id": "id:twitter.com:735369652956766208",
+		"image": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"languages": [
+			"en"
+		],
+		"link": "http://www.twitter.com/ygritteygritte",
+		"links": [
+			{
+				"href": null,
+				"rel": "me"
+			}
+		],
+		"listedCount": -1,
+		"objectType": "person",
+		"postedTime": "2016-05-25T07:19:22.568Z",
+		"preferredUsername": "ygritteygritte",
+		"statusesCount": -1,
+		"summary": null,
+		"twitterTimeZone": null,
+		"utcOffset": null,
+		"verified": false
+	},
+	"body": "RT @ygritteygritte: @joyding spooky! https://t.co/wzq98u8cps",
+	"display_text_range": [
+		9,
+		16
+	],
+	"favoritesCount": 0,
+	"generator": {
+		"displayName": "Twitter Web Client",
+		"link": "http://twitter.com"
+	},
+	"id": "tag:search.twitter.com,2005:758831941189636098",
+	"link": "http://twitter.com/ygritteygritte/statuses/758831941189636098",
+	"object": {
+		"actor": {
+			"displayName": "Ygritte",
+			"favoritesCount": -1,
+			"followersCount": -1,
+			"friendsCount": -1,
+			"id": "id:twitter.com:735369652956766208",
+			"image": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"languages": [
+				"en"
+			],
+			"link": "http://www.twitter.com/ygritteygritte",
+			"links": [
+				{
+					"href": null,
+					"rel": "me"
+				}
+			],
+			"listedCount": -1,
+			"objectType": "person",
+			"postedTime": "2016-05-25T07:19:22.568Z",
+			"preferredUsername": "ygritteygritte",
+			"statusesCount": -1,
+			"summary": null,
+			"twitterTimeZone": null,
+			"utcOffset": null,
+			"verified": false
+		},
+		"body": "@joyding spooky! https://t.co/wzq98u8cps",
+		"display_text_range": [
+			9,
+			16
+		],
+		"favoritesCount": 0,
+		"generator": {
+			"displayName": "Twitter Web Client",
+			"link": "http://twitter.com"
+		},
+		"id": "tag:search.twitter.com,2005:758801453548916736",
+		"inReplyTo": {
+			"link": "http://twitter.com/joyding/statuses/757126054012006401"
+		},
+		"link": "http://twitter.com/ygritteygritte/statuses/758801453548916736",
+		"object": {
+			"id": "object:search.twitter.com,2005:758801453548916736",
+			"link": "http://twitter.com/ygritteygritte/statuses/758801453548916736",
+			"objectType": "note",
+			"postedTime": "2016-07-28T23:08:59.000Z",
+			"summary": "@joyding spooky! https://t.co/wzq98u8cps"
+		},
+		"objectType": "activity",
+		"postedTime": "2016-07-28T23:08:59.000Z",
+		"provider": {
+			"displayName": "Twitter",
+			"link": "http://www.twitter.com",
+			"objectType": "service"
+		},
+		"twitter_entities": {
+			"hashtags": [
+			],
+			"media": [
+				{
+					"display_url": "pic.twitter.com/wzq98u8cps",
+					"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+					"id": 758801439057547269,
+					"id_str": "758801439057547269",
+					"indices": [
+						17,
+						40
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"sizes": {
+						"large": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"medium": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"small": {
+							"h": 405,
+							"resize": "fit",
+							"w": 340
+						},
+						"thumb": {
+							"h": 150,
+							"resize": "crop",
+							"w": 150
+						}
+					},
+					"type": "photo",
+					"url": "https://t.co/wzq98u8cps"
+				}
+			],
+			"symbols": [
+			],
+			"urls": [
+			],
+			"user_mentions": [
+				{
+					"id": 407933800,
+					"id_str": "407933800",
+					"indices": [
+						0,
+						8
+					],
+					"name": "joy_ding.app",
+					"screen_name": "joyding"
+				}
+			]
+		},
+		"twitter_extended_entities": {
+			"media": [
+				{
+					"display_url": "pic.twitter.com/wzq98u8cps",
+					"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+					"id": 758801439057547269,
+					"id_str": "758801439057547269",
+					"indices": [
+						17,
+						40
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"sizes": {
+						"large": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"medium": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"small": {
+							"h": 405,
+							"resize": "fit",
+							"w": 340
+						},
+						"thumb": {
+							"h": 150,
+							"resize": "crop",
+							"w": 150
+						}
+					},
+					"type": "animated_gif",
+					"url": "https://t.co/wzq98u8cps",
+					"video_info": {
+						"aspect_ratio": [
+							184,
+							219
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://pbs.twimg.com/tweet_video/CofN43YUkAUiBiP.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"twitter_filter_level": "low",
+		"twitter_lang": "en",
+		"verb": "post"
+	},
+	"objectType": "activity",
+	"postedTime": "2016-07-29T01:10:07.000Z",
+	"provider": {
+		"displayName": "Twitter",
+		"link": "http://www.twitter.com",
+		"objectType": "service"
+	},
+	"retweetCount": 1,
+	"twitter_entities": {
+		"hashtags": [
+		],
+		"media": [
+			{
+				"display_url": "pic.twitter.com/wzq98u8cps",
+				"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+				"id": 758801439057547269,
+				"id_str": "758801439057547269",
+				"indices": [
+					37,
+					60
+				],
+				"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"sizes": {
+					"large": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"medium": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"small": {
+						"h": 405,
+						"resize": "fit",
+						"w": 340
+					},
+					"thumb": {
+						"h": 150,
+						"resize": "crop",
+						"w": 150
+					}
+				},
+				"source_status_id": 758801453548916736,
+				"source_status_id_str": "758801453548916736",
+				"source_user_id": 735369652956766208,
+				"source_user_id_str": "735369652956766208",
+				"type": "photo",
+				"url": "https://t.co/wzq98u8cps"
+			}
+		],
+		"symbols": [
+		],
+		"urls": [
+		],
+		"user_mentions": [
+			{
+				"id": 735369652956766208,
+				"id_str": "735369652956766208",
+				"indices": [
+					3,
+					18
+				],
+				"name": "Ygritte",
+				"screen_name": "ygritteygritte"
+			},
+			{
+				"id": 407933800,
+				"id_str": "407933800",
+				"indices": [
+					20,
+					28
+				],
+				"name": "joy_ding.app",
+				"screen_name": "joyding"
+			}
+		]
+	},
+	"twitter_extended_entities": {
+		"media": [
+			{
+				"display_url": "pic.twitter.com/wzq98u8cps",
+				"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+				"id": 758801439057547269,
+				"id_str": "758801439057547269",
+				"indices": [
+					37,
+					60
+				],
+				"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"sizes": {
+					"large": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"medium": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"small": {
+						"h": 405,
+						"resize": "fit",
+						"w": 340
+					},
+					"thumb": {
+						"h": 150,
+						"resize": "crop",
+						"w": 150
+					}
+				},
+				"source_status_id": 758801453548916736,
+				"source_status_id_str": "758801453548916736",
+				"source_user_id": 735369652956766208,
+				"source_user_id_str": "735369652956766208",
+				"type": "animated_gif",
+				"url": "https://t.co/wzq98u8cps",
+				"video_info": {
+					"aspect_ratio": [
+						184,
+						219
+					],
+					"variants": [
+						{
+							"bitrate": 0,
+							"content_type": "video/mp4",
+							"url": "https://pbs.twimg.com/tweet_video/CofN43YUkAUiBiP.mp4"
+						}
+					]
+				}
+			}
+		]
+	},
+	"twitter_filter_level": "low",
+	"twitter_lang": "en",
+	"verb": "share"
+}

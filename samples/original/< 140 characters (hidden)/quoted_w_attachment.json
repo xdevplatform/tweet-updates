@@ -1,0 +1,245 @@
+{
+	"contributors": null,
+	"coordinates": null,
+	"created_at": "Fri Jul 29 01:13:57 +0000 2016",
+	"display_text_range": [
+		0,
+		39
+	],
+	"entities": {
+		"hashtags": [
+		],
+		"symbols": [
+		],
+		"urls": [
+			{
+				"display_url": "twitter.com/ygritteygritte…",
+				"expanded_url": "https://twitter.com/ygritteygritte/status/758832852892921856",
+				"indices": [
+					40,
+					63
+				],
+				"url": "https://t.co/M2NFQpSRAn"
+			}
+		],
+		"user_mentions": [
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"filter_level": "low",
+	"geo": null,
+	"id": 758832904415748096,
+	"id_str": "758832904415748096",
+	"in_reply_to_screen_name": null,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"is_quote_status": true,
+	"lang": "en",
+	"place": null,
+	"possibly_sensitive": false,
+	"quoted_status": {
+		"contributors": null,
+		"coordinates": null,
+		"created_at": "Fri Jul 29 01:13:45 +0000 2016",
+		"display_text_range": [
+			0,
+			24
+		],
+		"entities": {
+			"hashtags": [
+			],
+			"media": [
+				{
+					"display_url": "pic.twitter.com/abIYbee2x6",
+					"expanded_url": "http://twitter.com/ygritteygritte/status/758832852892921856/photo/1",
+					"id": 758832826917675008,
+					"id_str": "758832826917675008",
+					"indices": [
+						25,
+						48
+					],
+					"media_url": "http://pbs.twimg.com/media/Cofqb4RVYAAD3FC.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/Cofqb4RVYAAD3FC.jpg",
+					"sizes": {
+						"large": {
+							"h": 239,
+							"resize": "fit",
+							"w": 236
+						},
+						"medium": {
+							"h": 239,
+							"resize": "fit",
+							"w": 236
+						},
+						"small": {
+							"h": 239,
+							"resize": "fit",
+							"w": 236
+						},
+						"thumb": {
+							"h": 150,
+							"resize": "crop",
+							"w": 150
+						}
+					},
+					"type": "photo",
+					"url": "https://t.co/abIYbee2x6"
+				}
+			],
+			"symbols": [
+			],
+			"urls": [
+			],
+			"user_mentions": [
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"display_url": "pic.twitter.com/abIYbee2x6",
+					"expanded_url": "http://twitter.com/ygritteygritte/status/758832852892921856/photo/1",
+					"id": 758832826917675008,
+					"id_str": "758832826917675008",
+					"indices": [
+						25,
+						48
+					],
+					"media_url": "http://pbs.twimg.com/media/Cofqb4RVYAAD3FC.jpg",
+					"media_url_https": "https://pbs.twimg.com/media/Cofqb4RVYAAD3FC.jpg",
+					"sizes": {
+						"large": {
+							"h": 239,
+							"resize": "fit",
+							"w": 236
+						},
+						"medium": {
+							"h": 239,
+							"resize": "fit",
+							"w": 236
+						},
+						"small": {
+							"h": 239,
+							"resize": "fit",
+							"w": 236
+						},
+						"thumb": {
+							"h": 150,
+							"resize": "crop",
+							"w": 150
+						}
+					},
+					"type": "photo",
+					"url": "https://t.co/abIYbee2x6"
+				}
+			]
+		},
+		"favorite_count": 0,
+		"favorited": false,
+		"filter_level": "low",
+		"geo": null,
+		"id": 758832852892921856,
+		"id_str": "758832852892921856",
+		"in_reply_to_screen_name": null,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"is_quote_status": false,
+		"lang": "en",
+		"place": null,
+		"possibly_sensitive": false,
+		"retweet_count": 0,
+		"retweeted": false,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"text": "&lt;140 tweet with image https://t.co/abIYbee2x6",
+		"truncated": false,
+		"user": {
+			"contributors_enabled": false,
+			"created_at": "Wed May 25 07:19:22 +0000 2016",
+			"default_profile": true,
+			"default_profile_image": false,
+			"description": null,
+			"favourites_count": -1,
+			"follow_request_sent": null,
+			"followers_count": -1,
+			"following": null,
+			"friends_count": -1,
+			"geo_enabled": false,
+			"id": 735369652956766208,
+			"id_str": "735369652956766208",
+			"is_translator": false,
+			"lang": "en",
+			"listed_count": null,
+			"location": null,
+			"name": "Ygritte",
+			"notifications": null,
+			"profile_background_color": "",
+			"profile_background_image_url": null,
+			"profile_background_image_url_https": null,
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_link_color": "",
+			"profile_sidebar_border_color": "",
+			"profile_sidebar_fill_color": "",
+			"profile_text_color": "",
+			"profile_use_background_image": false,
+			"protected": false,
+			"screen_name": "ygritteygritte",
+			"statuses_count": -1,
+			"time_zone": null,
+			"url": null,
+			"utc_offset": null,
+			"verified": false
+		}
+	},
+	"quoted_status_id": 758832852892921856,
+	"quoted_status_id_str": "758832852892921856",
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+	"text": "this is a quote tweet of an image tweet https://t.co/M2NFQpSRAn",
+	"truncated": false,
+	"user": {
+		"contributors_enabled": false,
+		"created_at": "Wed May 25 07:19:22 +0000 2016",
+		"default_profile": true,
+		"default_profile_image": false,
+		"description": null,
+		"favourites_count": -1,
+		"follow_request_sent": null,
+		"followers_count": -1,
+		"following": null,
+		"friends_count": -1,
+		"geo_enabled": false,
+		"id": 735369652956766208,
+		"id_str": "735369652956766208",
+		"is_translator": false,
+		"lang": "en",
+		"listed_count": null,
+		"location": null,
+		"name": "Ygritte",
+		"notifications": null,
+		"profile_background_color": "",
+		"profile_background_image_url": null,
+		"profile_background_image_url_https": null,
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_link_color": "",
+		"profile_sidebar_border_color": "",
+		"profile_sidebar_fill_color": "",
+		"profile_text_color": "",
+		"profile_use_background_image": false,
+		"protected": false,
+		"screen_name": "ygritteygritte",
+		"statuses_count": -1,
+		"time_zone": null,
+		"url": null,
+		"utc_offset": null,
+		"verified": false
+	}
+}

@@ -1,0 +1,376 @@
+{
+	"contributors": null,
+	"coordinates": null,
+	"created_at": "Fri Jul 29 01:10:07 +0000 2016",
+	"display_text_range": [
+		9,
+		16
+	],
+	"entities": {
+		"hashtags": [
+		],
+		"media": [
+			{
+				"display_url": "pic.twitter.com/wzq98u8cps",
+				"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+				"id": 758801439057547269,
+				"id_str": "758801439057547269",
+				"indices": [
+					37,
+					60
+				],
+				"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"sizes": {
+					"large": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"medium": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"small": {
+						"h": 405,
+						"resize": "fit",
+						"w": 340
+					},
+					"thumb": {
+						"h": 150,
+						"resize": "crop",
+						"w": 150
+					}
+				},
+				"source_status_id": 758801453548916736,
+				"source_status_id_str": "758801453548916736",
+				"source_user_id": 735369652956766208,
+				"source_user_id_str": "735369652956766208",
+				"type": "photo",
+				"url": "https://t.co/wzq98u8cps"
+			}
+		],
+		"symbols": [
+		],
+		"urls": [
+		],
+		"user_mentions": [
+			{
+				"id": 735369652956766208,
+				"id_str": "735369652956766208",
+				"indices": [
+					3,
+					18
+				],
+				"name": "Ygritte",
+				"screen_name": "ygritteygritte"
+			},
+			{
+				"id": 407933800,
+				"id_str": "407933800",
+				"indices": [
+					20,
+					28
+				],
+				"name": "joy_ding.app",
+				"screen_name": "joyding"
+			}
+		]
+	},
+	"extended_entities": {
+		"media": [
+			{
+				"display_url": "pic.twitter.com/wzq98u8cps",
+				"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+				"id": 758801439057547269,
+				"id_str": "758801439057547269",
+				"indices": [
+					37,
+					60
+				],
+				"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+				"sizes": {
+					"large": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"medium": {
+						"h": 438,
+						"resize": "fit",
+						"w": 368
+					},
+					"small": {
+						"h": 405,
+						"resize": "fit",
+						"w": 340
+					},
+					"thumb": {
+						"h": 150,
+						"resize": "crop",
+						"w": 150
+					}
+				},
+				"source_status_id": 758801453548916736,
+				"source_status_id_str": "758801453548916736",
+				"source_user_id": 735369652956766208,
+				"source_user_id_str": "735369652956766208",
+				"type": "animated_gif",
+				"url": "https://t.co/wzq98u8cps",
+				"video_info": {
+					"aspect_ratio": [
+						184,
+						219
+					],
+					"variants": [
+						{
+							"bitrate": 0,
+							"content_type": "video/mp4",
+							"url": "https://pbs.twimg.com/tweet_video/CofN43YUkAUiBiP.mp4"
+						}
+					]
+				}
+			}
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"filter_level": "low",
+	"geo": null,
+	"id": 758831941189636098,
+	"id_str": "758831941189636098",
+	"in_reply_to_screen_name": null,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"is_quote_status": false,
+	"lang": "en",
+	"place": null,
+	"possibly_sensitive": false,
+	"retweet_count": 0,
+	"retweeted": false,
+	"retweeted_status": {
+		"contributors": null,
+		"coordinates": null,
+		"created_at": "Thu Jul 28 23:08:59 +0000 2016",
+		"display_text_range": [
+			9,
+			16
+		],
+		"entities": {
+			"hashtags": [
+			],
+			"media": [
+				{
+					"display_url": "pic.twitter.com/wzq98u8cps",
+					"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+					"id": 758801439057547269,
+					"id_str": "758801439057547269",
+					"indices": [
+						17,
+						40
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"sizes": {
+						"large": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"medium": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"small": {
+							"h": 405,
+							"resize": "fit",
+							"w": 340
+						},
+						"thumb": {
+							"h": 150,
+							"resize": "crop",
+							"w": 150
+						}
+					},
+					"type": "photo",
+					"url": "https://t.co/wzq98u8cps"
+				}
+			],
+			"symbols": [
+			],
+			"urls": [
+			],
+			"user_mentions": [
+				{
+					"id": 407933800,
+					"id_str": "407933800",
+					"indices": [
+						0,
+						8
+					],
+					"name": "joy_ding.app",
+					"screen_name": "joyding"
+				}
+			]
+		},
+		"extended_entities": {
+			"media": [
+				{
+					"display_url": "pic.twitter.com/wzq98u8cps",
+					"expanded_url": "http://twitter.com/ygritteygritte/status/758801453548916736/photo/1",
+					"id": 758801439057547269,
+					"id_str": "758801439057547269",
+					"indices": [
+						17,
+						40
+					],
+					"media_url": "http://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"media_url_https": "https://pbs.twimg.com/tweet_video_thumb/CofN43YUkAUiBiP.jpg",
+					"sizes": {
+						"large": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"medium": {
+							"h": 438,
+							"resize": "fit",
+							"w": 368
+						},
+						"small": {
+							"h": 405,
+							"resize": "fit",
+							"w": 340
+						},
+						"thumb": {
+							"h": 150,
+							"resize": "crop",
+							"w": 150
+						}
+					},
+					"type": "animated_gif",
+					"url": "https://t.co/wzq98u8cps",
+					"video_info": {
+						"aspect_ratio": [
+							184,
+							219
+						],
+						"variants": [
+							{
+								"bitrate": 0,
+								"content_type": "video/mp4",
+								"url": "https://pbs.twimg.com/tweet_video/CofN43YUkAUiBiP.mp4"
+							}
+						]
+					}
+				}
+			]
+		},
+		"favorite_count": 0,
+		"favorited": false,
+		"filter_level": "low",
+		"geo": null,
+		"id": 758801453548916736,
+		"id_str": "758801453548916736",
+		"in_reply_to_screen_name": "joyding",
+		"in_reply_to_status_id": 757126054012006401,
+		"in_reply_to_status_id_str": "757126054012006401",
+		"in_reply_to_user_id": 407933800,
+		"in_reply_to_user_id_str": "407933800",
+		"is_quote_status": false,
+		"lang": "en",
+		"place": null,
+		"possibly_sensitive": false,
+		"retweet_count": 1,
+		"retweeted": true,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"text": "@joyding spooky! https://t.co/wzq98u8cps",
+		"truncated": false,
+		"user": {
+			"contributors_enabled": false,
+			"created_at": "Wed May 25 07:19:22 +0000 2016",
+			"default_profile": true,
+			"default_profile_image": false,
+			"description": null,
+			"favourites_count": -1,
+			"follow_request_sent": null,
+			"followers_count": -1,
+			"following": null,
+			"friends_count": -1,
+			"geo_enabled": false,
+			"id": 735369652956766208,
+			"id_str": "735369652956766208",
+			"is_translator": false,
+			"lang": "en",
+			"listed_count": null,
+			"location": null,
+			"name": "Ygritte",
+			"notifications": null,
+			"profile_background_color": "",
+			"profile_background_image_url": null,
+			"profile_background_image_url_https": null,
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_link_color": "",
+			"profile_sidebar_border_color": "",
+			"profile_sidebar_fill_color": "",
+			"profile_text_color": "",
+			"profile_use_background_image": false,
+			"protected": false,
+			"screen_name": "ygritteygritte",
+			"statuses_count": -1,
+			"time_zone": null,
+			"url": null,
+			"utc_offset": null,
+			"verified": false
+		}
+	},
+	"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+	"text": "RT @ygritteygritte: @joyding spooky! https://t.co/wzq98u8cps",
+	"truncated": false,
+	"user": {
+		"contributors_enabled": false,
+		"created_at": "Wed May 25 07:19:22 +0000 2016",
+		"default_profile": true,
+		"default_profile_image": false,
+		"description": null,
+		"favourites_count": -1,
+		"follow_request_sent": null,
+		"followers_count": -1,
+		"following": null,
+		"friends_count": -1,
+		"geo_enabled": false,
+		"id": 735369652956766208,
+		"id_str": "735369652956766208",
+		"is_translator": false,
+		"lang": "en",
+		"listed_count": null,
+		"location": null,
+		"name": "Ygritte",
+		"notifications": null,
+		"profile_background_color": "",
+		"profile_background_image_url": null,
+		"profile_background_image_url_https": null,
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_link_color": "",
+		"profile_sidebar_border_color": "",
+		"profile_sidebar_fill_color": "",
+		"profile_text_color": "",
+		"profile_use_background_image": false,
+		"protected": false,
+		"screen_name": "ygritteygritte",
+		"statuses_count": -1,
+		"time_zone": null,
+		"url": null,
+		"utc_offset": null,
+		"verified": false
+	}
+}

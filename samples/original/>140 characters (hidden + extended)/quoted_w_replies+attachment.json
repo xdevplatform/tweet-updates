@@ -1,0 +1,561 @@
+{
+	"contributors": null,
+	"coordinates": null,
+	"created_at": "Fri Jul 29 01:41:44 +0000 2016",
+	"display_text_range": [
+		0,
+		52
+	],
+	"entities": {
+		"hashtags": [
+		],
+		"symbols": [
+		],
+		"urls": [
+			{
+				"display_url": "twitter.com/ygritteygritte…",
+				"expanded_url": "https://twitter.com/ygritteygritte/status/758839565989720065",
+				"indices": [
+					53,
+					76
+				],
+				"url": "https://t.co/kv2fg7ViAa"
+			}
+		],
+		"user_mentions": [
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"filter_level": "low",
+	"geo": null,
+	"id": 758839895745888256,
+	"id_str": "758839895745888256",
+	"in_reply_to_screen_name": null,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"is_quote_status": true,
+	"lang": "en",
+	"place": null,
+	"possibly_sensitive": false,
+	"quoted_status": {
+		"contributors": null,
+		"coordinates": null,
+		"created_at": "Fri Jul 29 01:40:25 +0000 2016",
+		"display_text_range": [
+			117,
+			140
+		],
+		"entities": {
+			"hashtags": [
+			],
+			"symbols": [
+			],
+			"urls": [
+				{
+					"display_url": "twitter.com/i/web/status/7…",
+					"expanded_url": "https://twitter.com/i/web/status/758839565989720065",
+					"indices": [
+						103,
+						126
+					],
+					"url": "https://t.co/xjlg1PhuKy"
+				}
+			],
+			"user_mentions": [
+				{
+					"id": 735369652956766208,
+					"id_str": "735369652956766208",
+					"indices": [
+						0,
+						15
+					],
+					"name": "Ygritte",
+					"screen_name": "ygritteygritte"
+				},
+				{
+					"id": 407933800,
+					"id_str": "407933800",
+					"indices": [
+						16,
+						24
+					],
+					"name": "joy_ding.app",
+					"screen_name": "joyding"
+				},
+				{
+					"id": 735368851374903296,
+					"id_str": "735368851374903296",
+					"indices": [
+						25,
+						38
+					],
+					"name": "Mance Rayder",
+					"screen_name": "ManceRayder7"
+				},
+				{
+					"id": 3180038317,
+					"id_str": "3180038317",
+					"indices": [
+						39,
+						54
+					],
+					"name": "Joy Ding",
+					"screen_name": "joydingtesting"
+				},
+				{
+					"id": 2724490316,
+					"id_str": "2724490316",
+					"indices": [
+						55,
+						69
+					],
+					"name": "tiny dancer",
+					"screen_name": "omgwtfwhatyes"
+				},
+				{
+					"id": 735371300584165376,
+					"id_str": "735371300584165376",
+					"indices": [
+						70,
+						84
+					],
+					"name": "Robert Baratheon",
+					"screen_name": "YesKingRobert"
+				},
+				{
+					"id": 735363789256830976,
+					"id_str": "735363789256830976",
+					"indices": [
+						85,
+						101
+					],
+					"name": "Jon Snow",
+					"screen_name": "NightsWatchJonS"
+				}
+			]
+		},
+		"extended_tweet": {
+			"display_text_range": [
+				330,
+				474
+			],
+			"entities": {
+				"hashtags": [
+				],
+				"media": [
+					{
+						"display_url": "pic.twitter.com/nJXyQ8hfab",
+						"expanded_url": "http://twitter.com/ygritteygritte/status/758839565989720065/photo/1",
+						"id": 758839558620405760,
+						"id_str": "758839558620405760",
+						"indices": [
+							475,
+							498
+						],
+						"media_url": "http://pbs.twimg.com/media/Cofwjt0VYAAB-g-.jpg",
+						"media_url_https": "https://pbs.twimg.com/media/Cofwjt0VYAAB-g-.jpg",
+						"sizes": {
+							"large": {
+								"h": 2048,
+								"resize": "fit",
+								"w": 1977
+							},
+							"medium": {
+								"h": 1200,
+								"resize": "fit",
+								"w": 1158
+							},
+							"small": {
+								"h": 680,
+								"resize": "fit",
+								"w": 656
+							},
+							"thumb": {
+								"h": 150,
+								"resize": "crop",
+								"w": 150
+							}
+						},
+						"type": "photo",
+						"url": "https://t.co/nJXyQ8hfab"
+					}
+				],
+				"symbols": [
+				],
+				"urls": [
+				],
+				"user_mentions": [
+					{
+						"id": 735369652956766208,
+						"id_str": "735369652956766208",
+						"indices": [
+							0,
+							15
+						],
+						"name": "Ygritte",
+						"screen_name": "ygritteygritte"
+					},
+					{
+						"id": 407933800,
+						"id_str": "407933800",
+						"indices": [
+							16,
+							24
+						],
+						"name": "joy_ding.app",
+						"screen_name": "joyding"
+					},
+					{
+						"id": 735368851374903296,
+						"id_str": "735368851374903296",
+						"indices": [
+							25,
+							38
+						],
+						"name": "Mance Rayder",
+						"screen_name": "ManceRayder7"
+					},
+					{
+						"id": 3180038317,
+						"id_str": "3180038317",
+						"indices": [
+							39,
+							54
+						],
+						"name": "Joy Ding",
+						"screen_name": "joydingtesting"
+					},
+					{
+						"id": 2724490316,
+						"id_str": "2724490316",
+						"indices": [
+							55,
+							69
+						],
+						"name": "tiny dancer",
+						"screen_name": "omgwtfwhatyes"
+					},
+					{
+						"id": 735371300584165376,
+						"id_str": "735371300584165376",
+						"indices": [
+							70,
+							84
+						],
+						"name": "Robert Baratheon",
+						"screen_name": "YesKingRobert"
+					},
+					{
+						"id": 735363789256830976,
+						"id_str": "735363789256830976",
+						"indices": [
+							85,
+							101
+						],
+						"name": "Jon Snow",
+						"screen_name": "NightsWatchJonS"
+					},
+					{
+						"id": 735365778703290368,
+						"id_str": "735365778703290368",
+						"indices": [
+							102,
+							117
+						],
+						"name": "Stannis Baratheon",
+						"screen_name": "RebornAzorAhai"
+					},
+					{
+						"id": 735367648511426561,
+						"id_str": "735367648511426561",
+						"indices": [
+							118,
+							134
+						],
+						"name": "Melisandre",
+						"screen_name": "MelisandreBurns"
+					},
+					{
+						"id": 2573833093,
+						"id_str": "2573833093",
+						"indices": [
+							135,
+							148
+						],
+						"name": "Mance Rayder",
+						"screen_name": "mancerayder8"
+					},
+					{
+						"id": 735374112894357504,
+						"id_str": "735374112894357504",
+						"indices": [
+							149,
+							164
+						],
+						"name": "Ned Stark",
+						"screen_name": "WinterfellaNed"
+					},
+					{
+						"id": 735372775544721408,
+						"id_str": "735372775544721408",
+						"indices": [
+							165,
+							178
+						],
+						"name": "Tyrion Lannister",
+						"screen_name": "TyrionDragon"
+					},
+					{
+						"id": 57504781,
+						"id_str": "57504781",
+						"indices": [
+							179,
+							193
+						],
+						"name": "Dan Jackson",
+						"screen_name": "DanJackson415"
+					},
+					{
+						"id": 16453479,
+						"id_str": "16453479",
+						"indices": [
+							194,
+							202
+						],
+						"name": "Adam Tornes",
+						"screen_name": "atornes"
+					},
+					{
+						"id": 21829539,
+						"id_str": "21829539",
+						"indices": [
+							203,
+							211
+						],
+						"name": "Kathy Porto Chang",
+						"screen_name": "kwchang"
+					},
+					{
+						"id": 2363333520,
+						"id_str": "2363333520",
+						"indices": [
+							212,
+							222
+						],
+						"name": "Frost Bike",
+						"screen_name": "FrostBike"
+					},
+					{
+						"id": 3355669594,
+						"id_str": "3355669594",
+						"indices": [
+							223,
+							230
+						],
+						"name": "blip qa",
+						"screen_name": "BlipQA"
+					},
+					{
+						"id": 3000643676,
+						"id_str": "3000643676",
+						"indices": [
+							231,
+							240
+						],
+						"name": "Anthony Padin",
+						"screen_name": "QAHitman"
+					},
+					{
+						"id": 953,
+						"id_str": "953",
+						"indices": [
+							241,
+							249
+						],
+						"name": "Ed Ho",
+						"screen_name": "mrdonut"
+					},
+					{
+						"id": 2607381,
+						"id_str": "2607381",
+						"indices": [
+							250,
+							260
+						],
+						"name": "Nick Takayama",
+						"screen_name": "ntakayama"
+					},
+					{
+						"id": 9564902,
+						"id_str": "9564902",
+						"indices": [
+							261,
+							272
+						],
+						"name": "Brandroid",
+						"screen_name": "NallsyMove"
+					},
+					{
+						"id": 15493070,
+						"id_str": "15493070",
+						"indices": [
+							273,
+							283
+						],
+						"name": "Chris Burrows",
+						"screen_name": "cjburrows"
+					},
+					{
+						"id": 706620023771516928,
+						"id_str": "706620023771516928",
+						"indices": [
+							284,
+							297
+						],
+						"name": "Nick Sheng",
+						"screen_name": "iamnicksheng"
+					},
+					{
+						"id": 3312160399,
+						"id_str": "3312160399",
+						"indices": [
+							298,
+							310
+						],
+						"name": "joy_ebooks",
+						"screen_name": "joy__ebooks"
+					},
+					{
+						"id": 19871955,
+						"id_str": "19871955",
+						"indices": [
+							311,
+							317
+						],
+						"name": "Keh-Li Sheng",
+						"screen_name": "kehli"
+					},
+					{
+						"id": 286399702,
+						"id_str": "286399702",
+						"indices": [
+							318,
+							329
+						],
+						"name": "Allen Chen",
+						"screen_name": "allenschen"
+					}
+				]
+			},
+			"full_text": "@ygritteygritte @joyding @ManceRayder7 @joydingtesting @omgwtfwhatyes @YesKingRobert @NightsWatchJonS @RebornAzorAhai @MelisandreBurns @mancerayder8 @WinterfellaNed @TyrionDragon @DanJackson415 @atornes @kwchang @FrostBike @BlipQA @QAHitman @mrdonut @ntakayama @NallsyMove @cjburrows @iamnicksheng @joy__ebooks @kehli @allenschen this is a reply to 25 people with 140 characters of text for me to say what I want to say. &amp; I still have room to attach a photo of a puppy! https://t.co/nJXyQ8hfab"
+		},
+		"favorite_count": 0,
+		"favorited": false,
+		"filter_level": "low",
+		"geo": null,
+		"id": 758839565989720065,
+		"id_str": "758839565989720065",
+		"in_reply_to_screen_name": "ygritteygritte",
+		"in_reply_to_status_id": 758838116891242496,
+		"in_reply_to_status_id_str": "758838116891242496",
+		"in_reply_to_user_id": 735369652956766208,
+		"in_reply_to_user_id_str": "735369652956766208",
+		"is_quote_status": false,
+		"lang": "en",
+		"place": null,
+		"possibly_sensitive": false,
+		"retweet_count": 0,
+		"retweeted": false,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter for  iPhone</a>",
+		"text": "@ygritteygritte @joyding @ManceRayder7 @joydingtesting @omgwtfwhatyes @YesKingRobert @NightsWatchJonS… https://t.co/xjlg1PhuKy",
+		"truncated": true,
+		"user": {
+			"contributors_enabled": false,
+			"created_at": "Wed May 25 07:19:22 +0000 2016",
+			"default_profile": true,
+			"default_profile_image": false,
+			"description": null,
+			"favourites_count": -1,
+			"follow_request_sent": null,
+			"followers_count": -1,
+			"following": null,
+			"friends_count": -1,
+			"geo_enabled": false,
+			"id": 735369652956766208,
+			"id_str": "735369652956766208",
+			"is_translator": false,
+			"lang": "en",
+			"listed_count": null,
+			"location": null,
+			"name": "Ygritte",
+			"notifications": null,
+			"profile_background_color": "",
+			"profile_background_image_url": null,
+			"profile_background_image_url_https": null,
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+			"profile_link_color": "",
+			"profile_sidebar_border_color": "",
+			"profile_sidebar_fill_color": "",
+			"profile_text_color": "",
+			"profile_use_background_image": false,
+			"protected": false,
+			"screen_name": "ygritteygritte",
+			"statuses_count": -1,
+			"time_zone": null,
+			"url": null,
+			"utc_offset": null,
+			"verified": false
+		}
+	},
+	"quoted_status_id": 758839565989720065,
+	"quoted_status_id_str": "758839565989720065",
+	"retweet_count": 0,
+	"retweeted": false,
+	"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+	"text": "this is a quote tweet of a b140 reply with an image! https://t.co/kv2fg7ViAa",
+	"truncated": false,
+	"user": {
+		"contributors_enabled": false,
+		"created_at": "Wed May 25 07:19:22 +0000 2016",
+		"default_profile": true,
+		"default_profile_image": false,
+		"description": null,
+		"favourites_count": -1,
+		"follow_request_sent": null,
+		"followers_count": -1,
+		"following": null,
+		"friends_count": -1,
+		"geo_enabled": false,
+		"id": 735369652956766208,
+		"id_str": "735369652956766208",
+		"is_translator": false,
+		"lang": "en",
+		"listed_count": null,
+		"location": null,
+		"name": "Ygritte",
+		"notifications": null,
+		"profile_background_color": "",
+		"profile_background_image_url": null,
+		"profile_background_image_url_https": null,
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"profile_link_color": "",
+		"profile_sidebar_border_color": "",
+		"profile_sidebar_fill_color": "",
+		"profile_text_color": "",
+		"profile_use_background_image": false,
+		"protected": false,
+		"screen_name": "ygritteygritte",
+		"statuses_count": -1,
+		"time_zone": null,
+		"url": null,
+		"utc_offset": null,
+		"verified": false
+	}
+}

@@ -1,0 +1,188 @@
+{
+	"actor": {
+		"displayName": "Adam Tornes",
+		"favoritesCount": -1,
+		"followersCount": -1,
+		"friendsCount": -1,
+		"id": "id:twitter.com:16453479",
+		"image": "https://pbs.twimg.com/profile_images/125375665/profile_pic_normal.jpg",
+		"languages": [
+			"en"
+		],
+		"link": "http://www.twitter.com/atornes",
+		"links": [
+			{
+				"href": "http://coloradoproduct.com",
+				"rel": "me"
+			}
+		],
+		"listedCount": -1,
+		"location": {
+			"displayName": "Denver, CO",
+			"objectType": "place"
+		},
+		"objectType": "person",
+		"postedTime": "2008-09-25T16:51:58.000Z",
+		"preferredUsername": "atornes",
+		"statusesCount": -1,
+		"summary": "Product Manager @Twitter. Co-founder @ColoradoProduct. Sports fanatic and lawn games champion #browns #ohiostate #purdue #redsox",
+		"twitterTimeZone": "Mountain Time (US & Canada)",
+		"utcOffset": "-21600",
+		"verified": false
+	},
+	"body": "Killing it #unbiased https://t.co/U9WP5jvXoP",
+	"favoritesCount": 2,
+	"generator": {
+		"displayName": "Twitter for iPhone",
+		"link": "http://twitter.com/download/iphone"
+	},
+	"id": "tag:search.twitter.com,2005:761709711112667136",
+	"link": "http://twitter.com/atornes/statuses/761709711112667136",
+	"object": {
+		"id": "object:search.twitter.com,2005:761709711112667136",
+		"link": "http://twitter.com/atornes/statuses/761709711112667136",
+		"objectType": "note",
+		"postedTime": "2016-08-05T23:45:21.000Z",
+		"summary": "Killing it #unbiased https://t.co/U9WP5jvXoP"
+	},
+	"objectType": "activity",
+	"postedTime": "2016-08-05T23:45:21.000Z",
+	"provider": {
+		"displayName": "Twitter",
+		"link": "http://www.twitter.com",
+		"objectType": "service"
+	},
+	"retweetCount": 0,
+	"twitter_entities": {
+		"hashtags": [
+			{
+				"indices": [
+					11,
+					20
+				],
+				"text": "unbiased"
+			}
+		],
+		"symbols": [
+		],
+		"urls": [
+			{
+				"display_url": "twitter.com/beckybitz/stat…",
+				"expanded_url": "https://twitter.com/beckybitz/status/761667947089715200",
+				"indices": [
+					21,
+					44
+				],
+				"url": "https://t.co/U9WP5jvXoP"
+			}
+		],
+		"user_mentions": [
+		]
+	},
+	"twitter_filter_level": "low",
+	"twitter_lang": "en",
+	"twitter_quoted_status": {
+		"actor": {
+			"displayName": "Becky Tornes",
+			"favoritesCount": -1,
+			"followersCount": -1,
+			"friendsCount": -1,
+			"id": "id:twitter.com:19980096",
+			"image": "https://pbs.twimg.com/profile_images/505426750931603456/UkQ0MaS0_normal.jpeg",
+			"languages": [
+				"en"
+			],
+			"link": "http://www.twitter.com/beckybitz",
+			"links": [
+				{
+					"href": null,
+					"rel": "me"
+				}
+			],
+			"listedCount": -1,
+			"objectType": "person",
+			"postedTime": "2009-02-03T16:09:59.000Z",
+			"preferredUsername": "beckybitz",
+			"statusesCount": -1,
+			"summary": "Project Manager at @viget, enthusiast of all things mobile and digital, and sports fan (especially MN sports).",
+			"twitterTimeZone": "Eastern Time (US & Canada)",
+			"utcOffset": "-14400",
+			"verified": false
+		},
+		"body": "I wrote a little post for @thedigitalpm that highlights how I (and other @viget PMs) use @SlackHQ to be better DPMs! https://t.co/voaq1N4WMs",
+		"favoritesCount": 0,
+		"generator": {
+			"displayName": "Twitter Web Client",
+			"link": "http://twitter.com"
+		},
+		"id": "tag:search.twitter.com,2005:761667947089715200",
+		"link": "http://twitter.com/beckybitz/statuses/761667947089715200",
+		"object": {
+			"id": "object:search.twitter.com,2005:761667947089715200",
+			"link": "http://twitter.com/beckybitz/statuses/761667947089715200",
+			"objectType": "note",
+			"postedTime": "2016-08-05T20:59:24.000Z",
+			"summary": "I wrote a little post for @thedigitalpm that highlights how I (and other @viget PMs) use @SlackHQ to be better DPMs! https://t.co/voaq1N4WMs"
+		},
+		"objectType": "activity",
+		"postedTime": "2016-08-05T20:59:24.000Z",
+		"provider": {
+			"displayName": "Twitter",
+			"link": "http://www.twitter.com",
+			"objectType": "service"
+		},
+		"twitter_entities": {
+			"hashtags": [
+			],
+			"symbols": [
+			],
+			"urls": [
+				{
+					"display_url": "goo.gl/UNAZME",
+					"expanded_url": "http://goo.gl/UNAZME",
+					"indices": [
+						117,
+						140
+					],
+					"url": "https://t.co/voaq1N4WMs"
+				}
+			],
+			"user_mentions": [
+				{
+					"id": 451128902,
+					"id_str": "451128902",
+					"indices": [
+						26,
+						39
+					],
+					"name": "The Digital PM",
+					"screen_name": "thedigitalpm"
+				},
+				{
+					"id": 14171594,
+					"id_str": "14171594",
+					"indices": [
+						73,
+						79
+					],
+					"name": "Viget",
+					"screen_name": "viget"
+				},
+				{
+					"id": 1305940272,
+					"id_str": "1305940272",
+					"indices": [
+						89,
+						97
+					],
+					"name": "Slack",
+					"screen_name": "SlackHQ"
+				}
+			]
+		},
+		"twitter_filter_level": "low",
+		"twitter_lang": "en",
+		"verb": "post"
+	},
+	"verb": "post"
+}

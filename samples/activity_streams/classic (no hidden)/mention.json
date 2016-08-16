@@ -1,0 +1,95 @@
+{
+	"actor": {
+		"displayName": "Adam Tornes",
+		"favoritesCount": -1,
+		"followersCount": -1,
+		"friendsCount": -1,
+		"id": "id:twitter.com:16453479",
+		"image": "https://pbs.twimg.com/profile_images/125375665/profile_pic_normal.jpg",
+		"languages": [
+			"en"
+		],
+		"link": "http://www.twitter.com/atornes",
+		"links": [
+			{
+				"href": "http://coloradoproduct.com",
+				"rel": "me"
+			}
+		],
+		"listedCount": -1,
+		"location": {
+			"displayName": "Denver, CO",
+			"objectType": "place"
+		},
+		"objectType": "person",
+		"postedTime": "2008-09-25T16:51:58.000Z",
+		"preferredUsername": "atornes",
+		"statusesCount": -1,
+		"summary": "Product Manager @Twitter. Co-founder @ColoradoProduct. Sports fanatic and lawn games champion #browns #ohiostate #purdue #redsox",
+		"twitterTimeZone": "Mountain Time (US & Canada)",
+		"utcOffset": "-21600",
+		"verified": false
+	},
+	"body": "Gnip 2.0 is here! So proud of the hard work of the whole @gnip team to get us to this milestone! #justthebeginning https://t.co/lJq7Fzt1Re",
+	"favoritesCount": 11,
+	"generator": {
+		"displayName": "Twitter Web Client",
+		"link": "http://twitter.com"
+	},
+	"id": "tag:search.twitter.com,2005:760211303956832257",
+	"link": "http://twitter.com/atornes/statuses/760211303956832257",
+	"object": {
+		"id": "object:search.twitter.com,2005:760211303956832257",
+		"link": "http://twitter.com/atornes/statuses/760211303956832257",
+		"objectType": "note",
+		"postedTime": "2016-08-01T20:31:13.000Z",
+		"summary": "Gnip 2.0 is here! So proud of the hard work of the whole @gnip team to get us to this milestone! #justthebeginning https://t.co/lJq7Fzt1Re"
+	},
+	"objectType": "activity",
+	"postedTime": "2016-08-01T20:31:13.000Z",
+	"provider": {
+		"displayName": "Twitter",
+		"link": "http://www.twitter.com",
+		"objectType": "service"
+	},
+	"retweetCount": 2,
+	"twitter_entities": {
+		"hashtags": [
+			{
+				"indices": [
+					97,
+					114
+				],
+				"text": "justthebeginning"
+			}
+		],
+		"symbols": [
+		],
+		"urls": [
+			{
+				"display_url": "blog.twitter.com/2016/gnip-2-is…",
+				"expanded_url": "https://blog.twitter.com/2016/gnip-2-is-here",
+				"indices": [
+					115,
+					138
+				],
+				"url": "https://t.co/lJq7Fzt1Re"
+			}
+		],
+		"user_mentions": [
+			{
+				"id": 16958875,
+				"id_str": "16958875",
+				"indices": [
+					57,
+					62
+				],
+				"name": "Gnip, Inc.",
+				"screen_name": "Gnip"
+			}
+		]
+	},
+	"twitter_filter_level": "low",
+	"twitter_lang": "en",
+	"verb": "post"
+}

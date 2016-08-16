@@ -1,0 +1,65 @@
+{
+	"actor": {
+		"displayName": "Ygritte",
+		"favoritesCount": -1,
+		"followersCount": -1,
+		"friendsCount": -1,
+		"id": "id:twitter.com:735369652956766208",
+		"image": "https://pbs.twimg.com/profile_images/735370259566329856/3mxqMJEq_normal.jpg",
+		"languages": [
+			"en"
+		],
+		"link": "http://www.twitter.com/ygritteygritte",
+		"links": [
+			{
+				"href": null,
+				"rel": "me"
+			}
+		],
+		"listedCount": -1,
+		"objectType": "person",
+		"postedTime": "2016-05-25T07:19:22.568Z",
+		"preferredUsername": "ygritteygritte",
+		"statusesCount": -1,
+		"summary": null,
+		"twitterTimeZone": null,
+		"utcOffset": null,
+		"verified": false
+	},
+	"body": "Regular tweet!",
+	"favoritesCount": 0,
+	"generator": {
+		"displayName": "Twitter Web Client",
+		"link": "http://twitter.com"
+	},
+	"id": "tag:search.twitter.com,2005:758796817370800129",
+	"link": "http://twitter.com/ygritteygritte/statuses/758796817370800129",
+	"object": {
+		"id": "object:search.twitter.com,2005:758796817370800129",
+		"link": "http://twitter.com/ygritteygritte/statuses/758796817370800129",
+		"objectType": "note",
+		"postedTime": "2016-07-28T22:50:33.000Z",
+		"summary": "Regular tweet!"
+	},
+	"objectType": "activity",
+	"postedTime": "2016-07-28T22:50:33.000Z",
+	"provider": {
+		"displayName": "Twitter",
+		"link": "http://www.twitter.com",
+		"objectType": "service"
+	},
+	"retweetCount": 0,
+	"twitter_entities": {
+		"hashtags": [
+		],
+		"symbols": [
+		],
+		"urls": [
+		],
+		"user_mentions": [
+		]
+	},
+	"twitter_filter_level": "low",
+	"twitter_lang": "pt",
+	"verb": "post"
+}

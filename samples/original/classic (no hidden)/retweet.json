@@ -1,0 +1,198 @@
+{
+	"contributors": null,
+	"coordinates": null,
+	"created_at": "Tue Jul 26 18:58:10 +0000 2016",
+	"entities": {
+		"hashtags": [
+		],
+		"symbols": [
+		],
+		"urls": [
+			{
+				"display_url": "recode.net/2016/7/25/1227…",
+				"expanded_url": "http://www.recode.net/2016/7/25/12275986/twitter-new-video-ad?utm_campaign=www.recode.net&utm_content=entry&utm_medium=social&utm_source=twitter",
+				"indices": [
+					72,
+					95
+				],
+				"url": "https://t.co/bjb5O9JW5L"
+			}
+		],
+		"user_mentions": [
+			{
+				"id": 19766751,
+				"id_str": "19766751",
+				"indices": [
+					3,
+					9
+				],
+				"name": "Joel Lunenfeld",
+				"screen_name": "joell"
+			},
+			{
+				"id": 2244340904,
+				"id_str": "2244340904",
+				"indices": [
+					100,
+					107
+				],
+				"name": "Recode",
+				"screen_name": "Recode"
+			}
+		]
+	},
+	"favorite_count": 0,
+	"favorited": false,
+	"filter_level": "low",
+	"geo": null,
+	"id": 758013561356419072,
+	"id_str": "758013561356419072",
+	"in_reply_to_screen_name": null,
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"is_quote_status": false,
+	"lang": "en",
+	"place": null,
+	"possibly_sensitive": false,
+	"retweet_count": 0,
+	"retweeted": false,
+	"retweeted_status": {
+		"contributors": null,
+		"coordinates": null,
+		"created_at": "Mon Jul 25 19:31:00 +0000 2016",
+		"entities": {
+			"hashtags": [
+			],
+			"symbols": [
+			],
+			"urls": [
+				{
+					"display_url": "recode.net/2016/7/25/1227…",
+					"expanded_url": "http://www.recode.net/2016/7/25/12275986/twitter-new-video-ad?utm_campaign=www.recode.net&utm_content=entry&utm_medium=social&utm_source=twitter",
+					"indices": [
+						61,
+						84
+					],
+					"url": "https://t.co/bjb5O9JW5L"
+				}
+			],
+			"user_mentions": [
+				{
+					"id": 2244340904,
+					"id_str": "2244340904",
+					"indices": [
+						89,
+						96
+					],
+					"name": "Recode",
+					"screen_name": "Recode"
+				}
+			]
+		},
+		"favorite_count": 0,
+		"favorited": false,
+		"filter_level": "low",
+		"geo": null,
+		"id": 757659435292504064,
+		"id_str": "757659435292504064",
+		"in_reply_to_screen_name": null,
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"is_quote_status": false,
+		"lang": "en",
+		"place": null,
+		"possibly_sensitive": false,
+		"retweet_count": 0,
+		"retweeted": false,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter for  iPhone</a>",
+		"text": "Twitter’s new video ad actually explains what Twitter is for https://t.co/bjb5O9JW5L via @Recode",
+		"truncated": false,
+		"user": {
+			"contributors_enabled": false,
+			"created_at": "Fri Jan 30 13:22:15 +0000 2009",
+			"default_profile": true,
+			"default_profile_image": false,
+			"description": "VP Global Brand & Creative Strategy @twitter, interning at home. Co-founder @guardiangym",
+			"favourites_count": -1,
+			"follow_request_sent": null,
+			"followers_count": -1,
+			"following": null,
+			"friends_count": -1,
+			"geo_enabled": true,
+			"id": 19766751,
+			"id_str": "19766751",
+			"is_translator": false,
+			"lang": "en",
+			"listed_count": null,
+			"location": "San Francisco",
+			"name": "Joel Lunenfeld",
+			"notifications": null,
+			"profile_background_color": "",
+			"profile_background_image_url": null,
+			"profile_background_image_url_https": null,
+			"profile_background_tile": false,
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/19766751/1469463672",
+			"profile_image_url": "http://pbs.twimg.com/profile_images/756537409144102912/3YhdTOaZ_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/756537409144102912/3YhdTOaZ_normal.jpg",
+			"profile_link_color": "",
+			"profile_sidebar_border_color": "",
+			"profile_sidebar_fill_color": "",
+			"profile_text_color": "",
+			"profile_use_background_image": false,
+			"protected": false,
+			"screen_name": "joell",
+			"statuses_count": -1,
+			"time_zone": "Eastern Time (US & Canada)",
+			"url": null,
+			"utc_offset": -14400,
+			"verified": false
+		}
+	},
+	"source": "<a href=\"http://itunes.apple.com/us/app/twitter/id409789998?mt=12\" rel=\"nofollow\">Twitter for Mac</a>",
+	"text": "RT @joell: Twitter’s new video ad actually explains what Twitter is for https://t.co/bjb5O9JW5L via @Recode",
+	"truncated": false,
+	"user": {
+		"contributors_enabled": false,
+		"created_at": "Thu Sep 25 16:51:58 +0000 2008",
+		"default_profile": true,
+		"default_profile_image": false,
+		"description": "Product Manager @Twitter. Co-founder @ColoradoProduct. Sports fanatic and lawn games champion #browns #ohiostate #purdue #redsox",
+		"favourites_count": -1,
+		"follow_request_sent": null,
+		"followers_count": -1,
+		"following": null,
+		"friends_count": -1,
+		"geo_enabled": true,
+		"id": 16453479,
+		"id_str": "16453479",
+		"is_translator": false,
+		"lang": "en",
+		"listed_count": null,
+		"location": "Denver, CO",
+		"name": "Adam Tornes",
+		"notifications": null,
+		"profile_background_color": "",
+		"profile_background_image_url": null,
+		"profile_background_image_url_https": null,
+		"profile_background_tile": false,
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/16453479/1422634705",
+		"profile_image_url": "http://pbs.twimg.com/profile_images/125375665/profile_pic_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/125375665/profile_pic_normal.jpg",
+		"profile_link_color": "",
+		"profile_sidebar_border_color": "",
+		"profile_sidebar_fill_color": "",
+		"profile_text_color": "",
+		"profile_use_background_image": false,
+		"protected": false,
+		"screen_name": "atornes",
+		"statuses_count": -1,
+		"time_zone": "Mountain Time (US & Canada)",
+		"url": "http://coloradoproduct.com",
+		"utc_offset": -21600,
+		"verified": false
+	}
+}
