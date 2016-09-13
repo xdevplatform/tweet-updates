@@ -4,9 +4,16 @@
 
 <p>These changes touch many aspects of the Twitter platform. To that end, we have prepared these technical materials to help you transition your products and applications to the new Tweet format. The following sections will step through the planned technical changes.</p>
 
+<h4>Recent revisions:</h4>
+<ul>
+<li>Additional JSON sample payloads</li>
+<li>Additional information added on the compose options (specifically the <code>attachment_url</code>, <code>auto_populate_reply_metadata</code> and <code>exclude_reply_userids</code> parameters)</li>
+<li>Additional information on error codes associated with the new scenarios</li>
+</ul>
+
 <h2>Overview</h2>
 <p>The following chart and sample JSON demonstrate the differences between Tweet JSON objects in the various API endpoints (REST, streaming and Gnip), once the API changes described above are active.
-(If the formatting is difficult to read, please see the documentation and samples on our corresponding <a href="https://github.com/twitterdev/tweet-updates/blob/master/upcoming.html">Github repo</a>.)</p>
+(If the formatting is difficult to read, please see the documentation and samples on our corresponding <a href="https://github.com/twitterdev/tweet-updates/">Github repo</a>). Additional samples are available on Github and also via the <a href="http://support.gnip.com/doing-more-with-140.html#PayloadExamples">Gnip support documentation</a>.</p>
 
 <style>
 table {
@@ -30,7 +37,7 @@ th, tr, td {
 }
 </style>
 
-<table width="80%"> 
+<table width="80%">
 <thead>
 <tr>
 <th width="10%">
@@ -56,7 +63,7 @@ th, tr, td {
 <p>Compatibility</p>
 </td>
 <td>
-<p>Tweet payload will work with all existing integrations, regardless of content of tweet.</p>
+<p>Tweet payload will work with all existing integrations, regardless of content of Tweet</p>
 </td>
 <td>
 <p>Default for all REST APIs</p>
@@ -65,14 +72,14 @@ th, tr, td {
 <ul>
 <li><code>text</code> field is truncated to 140, as needed</li>
 <li><code>truncated</code> field is true</li>
-<li>Any <code>entities</code> parameters only include those in the available 140 text range</li>
+<li>Any <code>entities</code> only include those in the available 140 text range</li>
 </ul>
 </td>
 <td>
 <ul>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibility_classic_13995.json">Classic tweet</a></li>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibility_classic_hidden_13797.json">Classic tweet w/ hidden text</a></li>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibility_extended_13996.json">Extended tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibility_classic_13995.json">Classic Tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibility_classic_hidden_13797.json">Classic Tweet w/ hidden text</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibility_extended_13996.json">Extended Tweet</a></li>
 </ul>
 </td>
 </tr>
@@ -88,7 +95,7 @@ th, tr, td {
 </td>
 <td>
 <ul>
-<li>Includes new <code>extended_tweet</code> parameter in payload, containing:</li>
+<li>Includes new <code>extended_tweet</code> field in payload, containing:</li>
 <li>
 <ul>
 <li><code>full_text</code></li>
@@ -100,9 +107,9 @@ th, tr, td {
 </td>
 <td>
 <ul>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibilityplus_classic_13994.json">Classic tweet</a></li>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibilityplus_classic_hidden_13797.json">Classic tweet w/ hidden text</a></li>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/compatibilityplus_extended_13997.json">Extended tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibilityplus_classic_13994.json">Classic Tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibilityplus_classic_hidden_13797.json">Classic Tweet w/ hidden text</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibilityplus_extended_13997.json">Extended Tweet</a></li>
 </ul>
 </td>
 </tr>
@@ -111,7 +118,7 @@ th, tr, td {
 <p>Extended</p>
 </td>
 <td>
-<p>Tweet payload contains all information to render tweets that are beyond 140</p>
+<p>Tweet payload contains all information to render Tweets that  contain more than 140 characters.</p>
 </td>
 <td>
 <p>REST APIs only: add the below parameters to any endpoint:</p>
@@ -126,9 +133,9 @@ th, tr, td {
 </td>
 <td>
 <ul>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/extended_classic_14002.json">Classic tweet</a></li>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/extended_classic_hidden_13761.json">Classic tweet w/ hidden text</a></li>
-<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/extended_extended_14001.json">Extended tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/extended_classic_14002.json">Classic Tweet</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/extended_classic_hidden_13761.json">Classic Tweet w/ hidden text</a></li>
+<li><a href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/extended_extended_14001.json">Extended Tweet</a></li>
 </ul>
 </td>
 </tr>
@@ -137,7 +144,7 @@ th, tr, td {
 
 <h2>What is changing?</h2>
 
-<p>We are simplifying the way that replies work on Twitter by moving some of the "scaffolding" of Tweets into display elements so they no longer count towards the character limit within the Tweet.</p>
+<p>We are simplifying the way that replies work on Twitter by moving some of the "scaffolding" of Tweets into display elements so that they no longer count towards the character limit within the Tweet.</p>
 
 <ul>
 <li>Replies: @names that auto-populate at the start of a reply Tweet will not count towards the character limit (but new non-reply Tweets starting with a @mention will count, as will @mentions added explicitly by the user in the body of the Tweet). Additionally, new Tweets that begin with a username will no longer have to use the <a href="https://twitter.com/twitter/status/732659321536815104">".@" convention</a> in order to have those Tweets reach all of their followers.</li>
@@ -171,7 +178,7 @@ th, tr, td {
         <li>A <em>hidden</em> prefix region that may contain one or more space-separated @mentions which shall not be rendered as part of the display text, but must instead be rendered as metadata.</li>
         <li>A display text region, which remains a maximum of 140 characters in length.</li>
         <li>A <em>hidden</em> suffix region that may contain one attachment URL which shall not be rendered as part of the display text, but must instead be rendered as metadata. This region is limited to containing a single URL entity that identifies an attachment resource: currently, one to four photos, a GIF, video, poll, Quote Tweet, or DM deep link.</li>
-        <ul><li>Note: URLs for Quote Tweet or DM deep links which are typed or pasted into a Tweet will still count against the character limit. In the near future, we will add an API parameter <code>attachment_url</code> to the <code>POST statuses/update</code> endpoint to attach these URLs to a Tweet. They will not count against the character limit when this method is used.</li></ul></ul>
+        <ul><li>Note: URLs for Quote Tweet or DM deep links that are typed or pasted into a Tweet will still count against the character limit. The new <code>attachment_url</code> parameter on the <code>POST statuses/update</code> endpoint will enable valid link formats to be attached to a Tweet. They will not count against the character limit when this method is used.</li></ul></ul>
         <li>If the text contains a hidden prefix or suffix region, then the Tweet object shall contain values to identify the start and end indices of the region of the text to be displayed as the Tweet text.</li>
         <li>Example payloads are provided in the appendix.</li>
     </ul>
@@ -247,11 +254,21 @@ th, tr, td {
 
 <h3>Public REST API endpoints</h3>
 
-<p>The <a href="https://dev.twitter.com/rest/public">REST API</a> endpoints that <em>create</em> new Tweets (<code>statuses/update</code>) will accept a new boolean parameter when a Tweet is sent as a reply to a conversation: <code>auto_populate_reply_metadata</code> (<code>true</code> to enable, <code>false</code> to disable, <code>false</code> being the default). The existing <code>in_reply_to_status_id</code> must also be set. The leading @mentions will subsequently be looked up from the original status, and added to the new Tweet from there. In cases where the original status has been deleted, the reply will fail. This is a change to existing behaviour.</p>
+<h4>Composition</h4>
+
+<p>The <a href="https://dev.twitter.com/rest/public">REST API</a> endpoints that <em>create</em> new Tweets (<code>statuses/update</code>) will accept a new boolean parameter when a Tweet is sent as a reply to a conversation: <code>auto_populate_reply_metadata</code> (<code>true</code> to enable, <code>false</code> to disable, <code>false</code> being the default). The existing <code>in_reply_to_status_id</code> must also be set. The leading @mentions will subsequently be looked up from the original Tweet, and added to the new Tweet from there. In cases where the original Tweet has been deleted, the reply will fail. This is a change to existing behaviour, where it has been possible to reply to a deleted Tweet ID.</p>
 
 <p>For older clients that are not updated for the <code>auto_populate_reply_metadata</code> option, mentions will continue to be included in the body of the Tweet and the server will decide on how to render the new Tweet.</p>
 
-<p>Any endpoints that <em>return</em> Tweets will accept a new <code>tweet_mode</code> request parameter.</p>
+<p>The <code>auto_populate_reply_metadata</code> option will append @mentions into the metadata as a reply chain grows, until the limit on @mentions is reached. In order to edit down the list of handles, an additional option, <code>exclude_reply_user_ids</code>, will enable specific IDs (apart from the leading one) to be excluded from a reply. This parameter is an optional, comma-separated list of user ids which will be removed from the server-generated @-mentions prefix.</p>
+
+<p>Note that the leading @mention cannot be removed as it would break the in-reply-to-tweet-id semantics. Attempting to remove it will be silently ignored.</p>
+
+<p>In order for a URL to not be counted in the body of the Tweet, a new <code>attachment_url</code> parameter will be available on <code>statuses/update</code> to allow a client to attach it to the Tweet without explicitly adding it to the Tweet text. This URL must be a Tweet permalink, or <a href="https://business.twitter.com/en/help/campaign-editing-and-optimization/public-to-private-conversation.html">DM deep link</a>. Arbitrary, non-Twitter URLs should remain in the Tweet text and will count against the 140 character limit. URLs passed to the <code>attachment_url</code> parameter not matching either a Tweet permalink or DM deep link will fail at Tweet creation and cause an exception.</p>
+
+<h4>Consumption</h4>
+
+<p>Any REST API endpoints that <em>return</em> Tweets will accept a new <code>tweet_mode</code> request parameter.</p>
 
 <p>Valid request values are <code>compat</code> and <code>extended</code>, which give compatibility mode and extended mode, respectively.</p>
 
@@ -263,7 +280,17 @@ th, tr, td {
 
 <p>Due to the limitations listed above, new API response and error codes will be introduced. These reflect the new content requirements listed in the Limits section above.</p>
 <table>
-<tr>
+  <tr>
+      <td>44<td>
+          <td>attachment_url parameter is invalid.</td>
+          <td>Corresponds with HTTP 400. The URL value provided is not a URL that can be attached to this Tweet.</td>
+      </tr>
+      <tr>
+          <td>385<td>
+              <td>You attempted to reply to a tweet that is deleted or not visible to you.</td>
+              <td>Corresponds with HTTP 403. A reply can only be sent with reference to an existing public Tweet.</td>
+      </tr>
+  <tr>
     <td>386<td>
         <td>The Tweet exceeds the number of allowed attachment types.</td>
         <td>Corresponds with HTTP 403. A Tweet is limited to a single attachment resource (media, Quote Tweet, etc.)</td>
