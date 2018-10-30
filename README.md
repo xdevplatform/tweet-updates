@@ -4,5 +4,5 @@ Further technical details are on [developer.twitter.com](https://developer.twitt
 
 Contents of this repository:
  * `samples/initial/` - the payloads linked from the developer documentation
- * `samples/original/` - updated, original format Tweets from the Twitter API
- * `samples/activity_streams/` - updated, Activity Streams Tweets from the Gnip APIs
+ * `samples/original/` - updated, original format Tweets from the standard Twitter APIs
+ * `samples/activity_streams/` - updated, Activity Streams Tweets from the Enterprise APIs
