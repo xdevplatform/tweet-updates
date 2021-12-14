@@ -89,13 +89,13 @@
             <td>
                 <ul>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibility_classic_13995.json">Classic
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/compatibility_classic_13995.json">Classic
                             Tweet</a></li>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibility_classic_hidden_13797.json">Classic
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/compatibility_classic_hidden_13797.json">Classic
                             Tweet w/ hidden text</a></li>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibility_extended_13996.json">Extended
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/compatibility_extended_13996.json">Extended
                             Tweet</a></li>
                 </ul>
             </td>
@@ -125,13 +125,13 @@
             <td>
                 <ul>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibilityplus_classic_13994.json">Classic
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/compatibilityplus_classic_13994.json">Classic
                             Tweet</a></li>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibilityplus_classic_hidden_13797.json">Classic
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/compatibilityplus_classic_hidden_13797.json">Classic
                             Tweet w/ hidden text</a></li>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/compatibilityplus_extended_13997.json">Extended
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/compatibilityplus_extended_13997.json">Extended
                             Tweet</a></li>
                 </ul>
             </td>
@@ -158,13 +158,13 @@
             <td>
                 <ul>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/extended_classic_14002.json">Classic
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/extended_classic_14002.json">Classic
                             Tweet</a></li>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/extended_classic_hidden_13761.json">Classic
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/extended_classic_hidden_13761.json">Classic
                             Tweet w/ hidden text</a></li>
                     <li><a
-                            href="https://github.com/twitterdev/tweet-updates/blob/master/samples/initial/extended_extended_14001.json">Extended
+                            href="https://github.com/twitterdev/tweet-updates/blob/main/samples/initial/extended_extended_14001.json">Extended
                             Tweet</a></li>
                 </ul>
             </td>
@@ -243,14 +243,14 @@
 
 <p>This diagram shows the high-level change to Tweets, and the elements that will be hidden in the user interface.</p>
 
-<img src="https://github.com/twitterdev/tweet-updates/blob/master/image00_0.png?raw=true" width="1999" height="1276"
+<img src="https://github.com/twitterdev/tweet-updates/blob/main/image00_0.png?raw=true" width="1999" height="1276"
     alt="" />
 
 <p>When rendered in apps or on the web, the hidden @mentions shall appear outside of the visible Tweet body, in a format
     similar to below. When a Tweet is in reply to multiple people, the name of the person whom the author is directly
     replying to should be prioritized.</p>
 
-<img src="https://github.com/twitterdev/tweet-updates/blob/master/image01_0.png?raw=true" width="1999" height="987"
+<img src="https://github.com/twitterdev/tweet-updates/blob/main/image01_0.png?raw=true" width="1999" height="987"
     alt="" />
 
 <h2>Terminology</h2>
@@ -343,7 +343,7 @@
 
 <h4>Composition</h4>
 
-<p>The <a href="https://developer.twitter.com/en/docs/api-reference-index">REST API</a> endpoints that <em>create</em>
+<p>The <a href="https://developer.twitter.com/en/docs/api-reference-index#Twitter">REST API</a> endpoints that <em>create</em>
     new Tweets (<code>statuses/update</code>) will accept a new boolean parameter when a Tweet is sent as a reply to a
     conversation: <code>auto_populate_reply_metadata</code> (<code>true</code> to enable, <code>false</code> to disable,
     <code>false</code> being the default). The existing <code>in_reply_to_status_id</code> must also be set. The leading
@@ -412,7 +412,7 @@
 </table>
 
 <h3>Public Streams</h3>
-<p>The <a href="https://developer.twitter.com/en/docs/tweets/filter-realtime/overview/statuses-filter">Streaming API</a>
+<p>The <a href="https://developer.twitter.com/en/docs/twitter-api/v1/tweets/filter-realtime/overview">Streaming API</a>
     does not provide the same ability to provide query parameters to configure request options. Therefore, the Streaming
     API will render all Tweets in compatibility mode at this time.</p>
 
