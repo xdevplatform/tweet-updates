@@ -4,9 +4,9 @@
 
 This documentation relates to v1.1 of the Twitter API. The current version is v2. Learn more on the [Twitter Developer website](https://developer.twitter.com).
 
-## Tweet Payloads for extended Tweets
+## Tweet Payloads: extended Tweets
 
-These are sample Tweet JSON payloads relating to the [changes to Tweets announced in 2016](https://blog.twitter.com/developer/en_us/a/2016/doing-more-with-140-characters.html).
+These are sample Tweet JSON payloads relating to the [changes to Tweets announced in 2016](https://blog.twitter.com/developer/en_us/a/2016/doing-more-with-140-characters.html) which extended the text limit on Tweets to up to 280 characters.
 
 Contents of this repository:
  * `samples/initial/` - the payloads linked from the developer documentation
